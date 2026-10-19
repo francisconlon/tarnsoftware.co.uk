@@ -13,7 +13,10 @@ one game's: each game gets a folder and a row on the home page.
 - `sinkhole/privacy/`: the Sinkhole privacy policy. Its URL goes in the Play listing and in the game's
   `AdConfig.PublishedPrivacyPolicyUrl` (Settings and the consent prompt link to it). Do not move it, and update
   the effective date when it changes.
-- `app-ads.txt`: authorised ad sellers; ad networks read it from the domain root. Paste LevelPlay's lines in.
+- `app-ads.txt`: authorised ad sellers; ad networks read it from the domain root (the Play listing's website
+  is `https://tarnsoftware.co.uk`). The list is Unity's, from the Unity dashboard: Monetization > Settings >
+  Organization > App-ads.txt. Unity changes it from time to time, so recheck monthly. Each ad network added in
+  LevelPlay later brings its own lines.
 - `CNAME`: the custom domain for GitHub Pages.
 
 Adding a game: copy `sinkhole/` to the new game's folder, swap its text, icon and screenshots, give it its own
