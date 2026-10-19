@@ -1,12 +1,23 @@
 # tarnsoftware.co.uk
 
-The Tarn Software website, served by GitHub Pages at https://tarnsoftware.co.uk.
+The Tarn Software website, served by GitHub Pages at https://tarnsoftware.co.uk. It is the studio's site, not
+one game's: each game gets a folder and a row on the home page.
 
-- `index.html`: home page.
+- `index.html`: home page. The hero is the logo as a tarn (sky, horizon, reflection); below it the Games list
+  (one `li.game` per game) and Contact.
+- `style.css`: the whole site. Colours come from the logo (night, slate, snow, glacier, moon, mist); type is
+  Jost from Google Fonts.
+- `assets/`: the logo files (`tarn-logo-*`, `tarn-icon-*`) and `tarn-wordmark.svg`, the logo's text on its own
+  for the home hero.
+- `sinkhole/`: the Sinkhole page (`img/` holds its icon and screenshots, 540x960 JPEGs).
 - `sinkhole/privacy/`: the Sinkhole privacy policy. Its URL goes in the Play listing and in the game's
-  `AdConfig.privacyPolicyUrl` (the consent prompt links to it). Update the effective date when it changes.
+  `AdConfig.PublishedPrivacyPolicyUrl` (Settings and the consent prompt link to it). Do not move it, and update
+  the effective date when it changes.
 - `app-ads.txt`: authorised ad sellers; ad networks read it from the domain root. Paste LevelPlay's lines in.
 - `CNAME`: the custom domain for GitHub Pages.
+
+Adding a game: copy `sinkhole/` to the new game's folder, swap its text, icon and screenshots, give it its own
+privacy policy, and add a `li.game` row to the Games list on the home page.
 
 DNS (GoDaddy): the apex `A` records point at GitHub Pages (185.199.108.153, 185.199.109.153,
 185.199.110.153, 185.199.111.153) and `www` is a `CNAME` to `tarnsoftware.github.io`. The `MX` and other
