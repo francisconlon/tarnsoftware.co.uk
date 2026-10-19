@@ -9,5 +9,5 @@ The Tarn Software website, served by GitHub Pages at https://tarnsoftware.co.uk.
 - `CNAME`: the custom domain for GitHub Pages.
 
 DNS (GoDaddy): the apex `A` records point at GitHub Pages (185.199.108.153, 185.199.109.153,
-185.199.110.153, 185.199.111.153) and `www` is a `CNAME` to `francisconlon.github.io`. The `MX` and other
+185.199.110.153, 185.199.111.153) and `www` is a `CNAME` to `tarnsoftware.github.io`. The `MX` and other
 email records belong to Microsoft 365 and must not be changed.
