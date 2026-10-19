@@ -1,0 +1,4 @@
+# app-ads.txt for tarnsoftware.co.uk (Sinkhole, uk.co.tarnsoftware.dropper)
+# Authorised sellers of this developer's ad inventory. LevelPlay lists the exact lines to add here
+# (dashboard: the app-ads.txt section) once the app and its ad units exist. Until then this file is empty
+# of entries on purpose: an unlisted seller is simply not authorised.
